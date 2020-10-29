@@ -1,5 +1,5 @@
 # Clone-Google
-This a proyect of the Clone Google
+This a project of the Clone Google
 
 * In this course HTML and CSS review
 
