@@ -29,6 +29,9 @@ nav .nav-right-section a {
   margin-right: 10px;
   color: #000000;
 }
+nav .nav-right-section a:hover {
+  text-decoration: underline;
+}
 nav .nav-right-section .menu-icon {
   background-image: url("https://cdn1.iconfinder.com/data/icons/lightly-selected/30/grid-small-480.png");
   background-repeat: no-repeat;
@@ -43,16 +46,15 @@ nav .nav-right-section img {
 }
 
 main {
-  margin-top: 150px;
   text-align: center;
 }
 main .main-logo {
   width: 530px;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 main .main-logo img {
-  width: 300px;
+  width: 270px;
 }
 main .main-input {
   width: 530px;
@@ -60,7 +62,9 @@ main .main-input {
   margin-bottom: 35px;
 }
 main .main-input-container {
-  width: 525px;
+  position: relative;
+  right: 40px;
+  width: 584px;
   border-radius: 100px;
   border: 1px solid #dfe1e5;
   display: flex;
@@ -78,20 +82,24 @@ main .main-input-container:hover {
   border-color: #dfe1e500;
 }
 main .main-input .search-icon {
+  position: relative;
+  right: 20px;
   background-image: url("https://icon-library.com/images/google-search-icon/google-search-icon-7.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
 }
 main .main-input .micro-icon {
+  position: relative;
+  left: 20px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
 
@@ -104,8 +112,9 @@ main .main-buttons div {
 }
 main .main-buttons button {
   height: 36px;
-  background-color: #f2f2f2;
-  border: 0;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  outline: none;
   font-size: 14px;
   color: #5f6368;
   border-radius: 5px;
@@ -113,9 +122,10 @@ main .main-buttons button {
   margin-right: 15px;
 }
 main .main-buttons button:hover {
-  border: 1px solid #c6c6c6;
-  box-shadow: 0 1px 1px #000001;
-  color: #222;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
 }
 
 footer {
